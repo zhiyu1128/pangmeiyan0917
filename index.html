@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #secondCss3 {
+            color: green;
+            font-weight: 900;
+            font-size: 20px;
+
+        }
+
+        a:hover {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="demo01.css">
+    <script>
+        console.log('2-js内嵌式引入');
+        <button onlclick="alert('2-js内嵌式引入')">2-js内嵌式引入</button>
+    </script>
+    <script src="demo01.js"></script>
+</head>
+
+<body>
+    <h1>我思故我在</h1>
+    <hr>
+    <h2>js的三种引入方式</h2>
+    <input type="button" value="1-js行内式引入" onclick="alert('1-js行内式引入')">
+    <a href="javascript:alert('1-js行内式引入');">1-js行内式引入</a>
+    <hr>
+    <h3>css3的三种引用方式</h3>
+    <p style="color: red;font-size: 20px;">1-行内式</p>
+    <p id="secondCss3">2-内嵌式引入css3</p>
+    <p class="ThirdCss3">3-外链式引入css3</p>
+    <p>每个不曾起舞的日子，都是对生命的辜负</p>
+    <p style="color: blue;">属性总是以name="value"</p>
+    <a href="https://www.baidu.com">百度</a>
+    <img src="OIP-C.jpg" ,width="80px" height="80px"></img>
+    <audio src="M500004Z8Ihr0JIu5s.mp3" controls="controls"></audio>
+    <br>
+    <video src="1.mp4" controls="controls"></video>
+</body>
+
+</html>
